@@ -1,0 +1,10 @@
+[project]
+name = "qualcomm-on-device-budget-futures"
+version = "0.0.1"
+description = "Scaffold: On-Device Budget Futures (independent Qualcomm lens)"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

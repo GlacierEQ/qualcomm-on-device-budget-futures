@@ -1,0 +1,12 @@
+{
+  "schema": "glaciereq.repo-capabilities.v1",
+  "repository": "GlacierEQ/qualcomm-on-device-budget-futures",
+  "capabilities": [
+    {
+      "id": "on-device-budget-futures",
+      "name": "On-Device Budget Futures",
+      "status": "SCAFFOLD",
+      "module": "src/on_device_budget_futures.py"
+    }
+  ]
+}

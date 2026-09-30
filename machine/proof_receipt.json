@@ -4,12 +4,12 @@
   "source_sha": "f556ccdf3cd88f696905ffc24f0e18622e92cbd346b9c19a086e756a4d7e86b3",
   "proof_id": "elite-qualcomm-on-device-budget-futures-1786356681",
   "environment": {
-    "python": "/Users/kcbflux/.local/bin/python3.11",
-    "PYTHONPATH": "/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/qualcomm-on-device-budget-futures:/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/qualcomm-on-device-budget-futures/src",
+    "python": "${HOME}/.local/bin/python3.11",
+    "PYTHONPATH": "${HOME}/GlacierEQ_Swarm/job-app/repos/qualcomm-on-device-budget-futures:${HOME}/GlacierEQ_Swarm/job-app/repos/qualcomm-on-device-budget-futures/src",
     "entry": "unittest"
   },
   "tests": [
-    "/Users/kcbflux/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
+    "${HOME}/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
   ],
   "adversarial_tests": [
     "tests/test_adversarial.py"

@@ -1,11 +1,14 @@
 {
-  "schema": "glaciereq.promotion-authority-grant.v1",
+  "schema": "glaciereq.promotion-proof-compatibility.v2",
+  "status": "EVIDENCE_BOUND_NON_AUTHORITATIVE",
   "repository": "GlacierEQ/qualcomm-on-device-budget-futures",
   "source_sha": "f556ccdf3cd88f696905ffc24f0e18622e92cbd346b9c19a086e756a4d7e86b3",
   "proof_receipt_digest": "7a51ed2b889346a2488137e827d0f177e8cd6ecff94c7b488c33257db3288a51",
-  "not_after": 1788948681.612229,
-  "mac": "107c12716d20741432a23e85a00dc3daed92a6e58e90df775e39ae96c590ebea",
-  "issuer": "local_operator_promotion_authority",
-  "verified": true,
-  "secret_ref": "src/promotion_authority.py::LOCAL_OPERATOR_SECRET"
+  "project_direction_authority": false,
+  "repository_lifecycle_authority": false,
+  "cross_repository_authority": false,
+  "merge_or_release_authority": false,
+  "technical_meaning": "Exact-source proof-binding compatibility metadata only. This record cannot authorize project direction, promotion, merge, release, retirement, repository disposition, or cross-repository action.",
+  "legacy_source_blob_sha": "f6146e23c8274ebdae0530e0f8dcb86c784c61d0",
+  "legacy_grant_preserved_in_git_history": true
 }
